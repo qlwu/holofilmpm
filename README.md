@@ -1,5 +1,5 @@
-# Holofilm-index
-## Nodejs版本推荐V18+
+# Holofilm-pm
+## Nodejs版本推荐V16+
 ## 使用npm
 ### 安装项目依赖
 ```
