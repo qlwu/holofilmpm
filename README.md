@@ -1,5 +1,5 @@
 # Holofilm-index
-
+## Nodejs版本推荐V18+
 ## 使用npm
 ### 安装项目依赖
 ```
@@ -13,7 +13,7 @@ npm run dev
 
 #### 打包编译
 ```
-npm run build:test
+npm run build
 ```
 
 #### 格式化代码
