@@ -1,6 +1,6 @@
 <template>
     <div class="page_header">
-        <div class="logo">HOLOFILM-PM</div>
+        <div class="logo"></div>
         <div class="navigator">
             <span v-for="route in routes" :key="route"
                 :class="[activeRoute == route && 'is_active']"
@@ -38,13 +38,11 @@ const onClick = route => {
     align-items: center;
     padding: 0 120px;
     // box-shadow: 0 1px rgba(0,0,0,.05);
-    .logo {
-        font-size: 34px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background: linear-gradient(to bottom, rgba(56, 144, 255, 1) , rgba(80, 120, 255, 1));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: rgba(56, 144, 255, 1);
+    .logo { 
+        width: 90px;
+        height: 90px;
+        background: url(../assets/icon/logo.jpg) no-repeat;
+        background-size: contain;
     }
 
     .navigator {
