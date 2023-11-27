@@ -37,11 +37,10 @@ const onClick = route => {
     justify-content: space-between;
     align-items: center;
     padding: 0 120px;
-    // box-shadow: 0 1px rgba(0,0,0,.05);
     .logo { 
         width: 90px;
         height: 90px;
-        background: url(../assets/icon/logo.jpg) no-repeat;
+        background: url(../assets/icon/LOGO.jpg) no-repeat;
         background-size: contain;
     }
 
