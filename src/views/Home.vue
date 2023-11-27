@@ -65,7 +65,7 @@ import Wrapper from "@/components/Wrapper.vue";
     .bg_img {
       width: 550px;
       height: 550px;
-      background: url(../assets/img/bg_1.webp) no-repeat 100% 100%;
+      background: url(../assets/img/bg_img.webp) no-repeat 100% 100%;
       border-radius: 8px;
     }
   }
