@@ -10,7 +10,7 @@
 <script setup>
 // FactoryEquipment
 import About from "@/components/About.vue";
-import videoSrc from "@/assets/video/factory.mp4";
+import videoSrc from "@/assets/video/factory_equipment.mp4";
 </script>
 
 <style lang="scss" scoped>
