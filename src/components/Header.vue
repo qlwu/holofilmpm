@@ -40,7 +40,7 @@ const onClick = route => {
     .logo { 
         width: 90px;
         height: 90px;
-        background: url(../assets/icon/LOGO.jpg) no-repeat;
+        background: url(../assets/LOGO.jpg) no-repeat;
         background-size: contain;
     }
 
