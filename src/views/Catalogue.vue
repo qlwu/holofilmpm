@@ -3,20 +3,21 @@
     <div class="catalogue_list">
       <a-row wrap>
         <a-col v-for="name in list" :key="name" :span="6">
-          <a-card
-            class="catalogue_item"
-            :bodyStyle="{ padding: 0 }"
-            hoverable
-          >
+          <a-card class="catalogue_item" :bodyStyle="{ padding: 0 }" hoverable>
             <div class="catalogue_img">
-                <img alt="example" :src="`./img/catalogue/${name}.BMP`" />
+              <img alt="example" :src="`./img/catalogue/${name}.BMP`" />
             </div>
             <h3>{{ name }}</h3>
           </a-card>
         </a-col>
       </a-row>
       <div class="pagination">
-        <a-pagination v-model:current="pageNo" v-model:pageSize="pageSize" total="141" :showSizeChanger="false"></a-pagination>
+        <a-pagination
+          v-model:current="pageNo"
+          v-model:pageSize="pageSize"
+          total="141"
+          :showSizeChanger="false"
+        ></a-pagination>
       </div>
     </div>
     <About />
@@ -25,23 +26,26 @@
 
 <script setup>
 // catalogue
-import { computed, ref, onBeforeMount } from 'vue';
-import About from '@/components/About.vue';
-import _ from 'lodash';
+import { computed, ref, onBeforeMount } from "vue";
+import About from "@/components/About.vue";
+import _ from "lodash";
 // 生成catalogue列表
 let imgList = Array(141).fill(0);
-for (let i = 0; i<imgList.length; i++) {
-    let index = i + 1;
-    index = i < 9 ? `0${index}` : index;
-    imgList[i] = `HF${index}`
+for (let i = 0; i < imgList.length; i++) {
+  let index = i + 1;
+  index = i < 9 ? `0${index}` : index;
+  imgList[i] = `HF${index}`;
 }
 const total = ref(imgList.length);
 const pageNo = ref(1);
 const pageSize = ref(8);
 
 const list = computed(() => {
-    return _.cloneDeep(imgList).splice((pageNo.value - 1) * pageSize.value, pageSize.value);
-})
+  return _.cloneDeep(imgList).splice(
+    (pageNo.value - 1) * pageSize.value,
+    pageSize.value
+  );
+});
 </script>
 
 <style lang="scss" scoped>
@@ -61,9 +65,9 @@ const list = computed(() => {
     width: 100%;
     height: 220px;
     img {
-        width: 100%;
-        height: 100%;
-        display: block;
+      width: 100%;
+      height: 100%;
+      display: block;
     }
   }
   h3 {
@@ -84,7 +88,7 @@ const list = computed(() => {
 }
 
 .pagination {
-    padding: 15px 10px;
-    text-align: right;
+  padding: 15px 10px;
+  text-align: right;
 }
 </style>

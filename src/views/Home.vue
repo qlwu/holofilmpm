@@ -1,23 +1,26 @@
 <template>
-    <div class="home_page">
-        <Wrapper bgColor="rgb(87, 117, 144)">
-            <div class="page_content_fir">
-                <h3>Our superiority</h3>
-                <div class="flex_box">
-                    <div class="description">
-                        <h4>Products</h4>
-                        <p>Shimless for popular hologram patterns/lens patterns.</p>
-                        <h4>Price</h4>
-                        <p>No middle man ,no worry! Get your hologrphic film at unbeatable prices, straight from the source.</p>
-                        <h4>Quality</h4>
-                        <p>2 rounds of quality inspection.</p>
-                    </div>
-                    <div class="bg_img"></div>
-                </div>
-            </div>
-        </Wrapper>
-        <About/>
-    </div>
+  <div class="home_page">
+    <Wrapper bgColor="rgb(87, 117, 144)">
+      <div class="page_content_fir">
+        <h3>Our superiority</h3>
+        <div class="flex_box">
+          <div class="description">
+            <h4>Products</h4>
+            <p>Shimless for popular hologram patterns/lens patterns.</p>
+            <h4>Price</h4>
+            <p>
+              No middle man ,no worry! Get your hologrphic film at unbeatable
+              prices, straight from the source.
+            </p>
+            <h4>Quality</h4>
+            <p>2 rounds of quality inspection.</p>
+          </div>
+          <div class="bg_img"></div>
+        </div>
+      </div>
+    </Wrapper>
+    <About />
+  </div>
 </template>
 
 <script setup>

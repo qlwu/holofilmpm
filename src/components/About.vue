@@ -14,10 +14,12 @@
       etc., The quality for survival and the service for the development is our
       company`s managerment philosophy
     </p>
-    <a-button class="contact_btn" @click="$router.push({name: 'Contact'})">Contact Us</a-button>
+    <a-button class="contact_btn" @click="$router.push({ name: 'Contact' })"
+      >Contact Us</a-button
+    >
     <div class="shape">
-        <span></span>
-        <span></span>
+      <span></span>
+      <span></span>
     </div>
   </div>
 </template>
@@ -66,7 +68,7 @@
     display: block;
     width: 100%;
     height: 350px;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     position: absolute;
     top: 50%;
