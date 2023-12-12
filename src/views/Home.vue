@@ -77,7 +77,7 @@ import Wrapper from "@/components/Wrapper.vue";
       }
     }
     .bg_img {
-      width: 550px;
+      width: 480px;
       height: 550px;
       background: url(../assets/img/bg_img.jpg) no-repeat;
       background-size: contain;
