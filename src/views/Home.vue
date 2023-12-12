@@ -67,7 +67,7 @@ import Wrapper from "@/components/Wrapper.vue";
         font-size: 25px;
         color: #fff;
         font-weight: bolder;
-        margin-top: 60px;
+        margin-top: 50px;
       }
       p {
         font-size: 18px;
@@ -79,7 +79,8 @@ import Wrapper from "@/components/Wrapper.vue";
     .bg_img {
       width: 550px;
       height: 550px;
-      background: url(../assets/img/bg_img.webp) no-repeat 100% 100%;
+      background: url(../assets/img/bg_img.jpg) no-repeat;
+      background-size: contain;
       border-radius: 8px;
     }
   }
