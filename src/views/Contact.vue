@@ -32,6 +32,7 @@
             </div>
             <p class="info_name">Email</p>
             <p class="info_content">tracy@holofilm-pm.com</p>
+            <p class="info_content">infor@holofilm-pm.com</p>
           </div>
         </div>
       </a-card>

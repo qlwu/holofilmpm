@@ -5,15 +5,29 @@
         <h3>Our superiority</h3>
         <div class="flex_box">
           <div class="description">
-            <h4>Products</h4>
-            <p>Shimless for popular hologram patterns/lens patterns.</p>
-            <h4>Price</h4>
+            <h4>Advanced production plant and equipment</h4>
             <p>
-              No middle man ,no worry! Get your hologrphic film at unbeatable
-              prices, straight from the source.
+              has various types of advanced production equipment,can reach 20
+              million meters per month,  product quality and stability, by our
+              customers.
             </p>
-            <h4>Quality</h4>
-            <p>2 rounds of quality inspection.</p>
+            <h4>Products</h4>
+            <p>
+              Shimless popular Hologram Patterns & Lens Patterns More than 200
+              standard patterns to meet different products needs  Can design and
+              produce customer-specific pattern for the customer's requirements,
+              and continue to develop more advanced and more reliable laser
+              products to provide the most professional of the original products
+              to our customers
+            </p>
+            <h4>Professional Team</h4>
+            <p>
+              We are rich in experience in the production, packaging, printing,
+              design, we can make the customer recognition and understanding of
+              the laser products and later processing services. With broad
+              international vision, we keep good communication with customers,
+              and provide more tailored products.
+            </p>
           </div>
           <div class="bg_img"></div>
         </div>
@@ -48,7 +62,7 @@ import Wrapper from "@/components/Wrapper.vue";
       align-items: center;
     }
     .description {
-      width: 440px;
+      width: 550px;
       h4 {
         font-size: 25px;
         color: #fff;
@@ -56,10 +70,10 @@ import Wrapper from "@/components/Wrapper.vue";
         margin-top: 60px;
       }
       p {
-        font-size: 20px;
+        font-size: 18px;
         color: #fff;
         font-weight: 500;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
       }
     }
     .bg_img {
